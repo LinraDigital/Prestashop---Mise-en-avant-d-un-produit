@@ -1,0 +1,124 @@
+/* ld_featured_product - styles de base */
+
+@media (min-width: 768px) {
+    .ld-featured-product {
+        margin-bottom: 50px;
+    }
+}
+.ld-featured-product .content {
+    background-color: #f6f7f4;
+    padding: 50px 25px;
+    border-radius: 35px;
+}
+@media (min-width: 1200px) {
+    .ld-featured-product .content {
+        padding: 50px;
+    }
+}
+.ld-featured-product small {
+    color: #95c13d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+@media (min-width: 768px) {
+  .ld-featured-product small { margin-top: 25px; }
+}
+@media (min-width: 1200px) {
+    .ld-featured-product small {
+        margin-top: 50px;
+    }
+}
+.ld-featured-product .title {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .ld-featured-product .title { font-size: 2.5rem; }
+}
+@media (min-width: 1200px) {
+  .ld-featured-product .title { font-size: 3.5rem; }
+}
+@media (min-width: 1400px) {
+  .ld-featured-product .title { font-size: 4rem; }
+}
+.ld-featured-product .desc {
+    margin: 0 0 25px;
+    opacity: 0.8;
+}
+
+.ld-featured-product .price {
+    margin: 0 0 25px;
+}
+
+.ld-featured-product .price-current {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.ld-featured-product .price-before {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.ld-featured-product .btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.ld-featured-product .picture {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+@media (min-width: 1200px) {
+    .ld-featured-product .picture {
+        margin-top: 0;
+    }
+}
+.ld-featured-product .picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.ld-featured-product .pictures {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.ld-featured-product .pict {
+    padding: 0;
+    border: 2px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    background: none;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.ld-featured-product .pict img {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.ld-featured-product .pict:hover {
+    border-color: #000;
+}

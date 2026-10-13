@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+   <name>ld_featured_product</name>
+   <displayName><![CDATA[LD - Featured Product]]></displayName>
+   <version><![CDATA[1.3.0]]></version>
+   <description><![CDATA[Met en avant un produit choisi en admin sur la page d'accueil : titre, description, prix (avec réduction éventuelle) et galerie d'images.]]></description>
+   <author><![CDATA[Linra Digital]]></author>
+   <tab><![CDATA[front_office_features]]></tab>
+   <is_configurable>1</is_configurable>
+   <need_instance>0</need_instance>
+   <limited_countries></limited_countries>
+</module>
